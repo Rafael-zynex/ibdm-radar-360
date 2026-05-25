@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
+  "routes": [
+    { "src": "/sw.js", "headers": { "Cache-Control": "no-cache" }, "dest": "/sw.js" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
